@@ -4,11 +4,11 @@ public class applicationClass {
 
 	public static void main(String[] args) {
        
-		SingletonClass singleton1 = new SingletonClass();
+		simpleClass singleton1 = new simpleClass();
 		
-		SingletonClass singleton2 = new SingletonClass();
-		singleton1.SingletonMethod();
-		singleton2.SingletonMethod();
+		simpleClass singleton2 = new simpleClass();
+		singleton1.SingleMethod();;
+		singleton2.SingleMethod();
 
 	}
 
